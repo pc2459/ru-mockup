@@ -1,4 +1,4 @@
-/* GENERAL STYLING */
+/* BASE STYLING */
 
 * {
 	box-sizing: border-box;
@@ -31,10 +31,12 @@ p, li, span {
 	line-height: 1.5em;
 }
 
-/* OVERALL LAYOUT */
 
 
-header, nav, article, .comments {
+/*  LAYOUT */
+
+
+#header, #nav, article, #comments {
 
 	width: 500px;
 	margin: 0 auto;
@@ -43,9 +45,11 @@ header, nav, article, .comments {
 
 }
 
+
+
 /* HEADER */
 
-header {
+#header {
 
 	background-color: #2ECC71;
 	height: 250px;
@@ -62,7 +66,7 @@ header {
 	left: 10px;
 }
 
-header nav {
+#nav {
 	background-color: #34495E;
 	text-align: right;
 	line-height: 2.5em;
@@ -72,7 +76,7 @@ header nav {
 	border-bottom: 5px solid #2C3E50;
 }
 
-header nav a {
+#nav a {
 	text-transform: uppercase;
 	padding: 0 10px 0 10px;
 	color: #fff;
@@ -112,7 +116,7 @@ header nav a {
 
 /* ARTICLE AND SECTIONS */
 
-article, .comments {
+article, #comments {
 	padding: 20px;
 	position: relative;
 }
@@ -142,16 +146,6 @@ article table th {
 	border-bottom: 1px solid #ccc;
 }
 
-.button {
-	color: #fff;
-	padding: 0.25em 1em;
-	background-color: #3498DB;
-}
-
-.posted-by {
-	color: #999999;
-}
-
 
 /* COMMENTS */
 
@@ -163,7 +157,6 @@ article table th {
 }
 
 .legends {
-	color: #999999;
 	text-transform: uppercase;
 	padding: 0 6px;
 }
@@ -197,8 +190,6 @@ article table th {
 	border: 0;
 	background-color: #C0392B;
 	color: #fff;
-
-
 }
 
 .left-float{
@@ -208,7 +199,6 @@ article table th {
 
 .comment-info time {
 	font-style: italic;
-	color: #999999;
 	display: block;
 }
 
@@ -230,6 +220,21 @@ article table th {
 	margin-left: 50px;
 	padding-left: 10px;
 	border-left: 1px solid #cccccc;
+}
+
+
+
+/* THEME */
+
+.muted {
+	color: #999999;
+}
+
+
+.button {
+	color: #fff;
+	padding: 0.25em 1em;
+	background-color: #3498DB;
 }
 
 
