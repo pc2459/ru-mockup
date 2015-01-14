@@ -15,18 +15,6 @@ body {
 	font-size: 12px;
 }
 
-h3 {
-
-	font-size: 1.25em;
-	font-weight: 700;
-	padding-left: 0.75em;
-}
-
-article h3 {
-
-	border-bottom: 1px solid #ccc;
-}
-
 pre {
 	background-color: #BDC3C7;
 	padding: 2em 2em;
@@ -64,7 +52,7 @@ header {
 	position: relative;
 }
 
-header .title {
+.title {
 
 	font-size: 2em;
 	color: #fff;
@@ -75,7 +63,6 @@ header .title {
 }
 
 header nav {
-
 	background-color: #34495E;
 	text-align: right;
 	line-height: 2.5em;
@@ -86,7 +73,6 @@ header nav {
 }
 
 header nav a {
-
 	text-transform: uppercase;
 	padding: 0 10px 0 10px;
 	color: #fff;
@@ -127,23 +113,19 @@ aside ul a {
 /* ARTICLE AND SECTIONS */
 
 article, .comments {
-
 	padding: 20px;
 	position: relative;
 }
 
 article img, section img {
-
 	max-width: 100%;
 }
 
 article table {
-
 	border-collapse: collapse;
 }
 
 article table td, article table th {
-
 	border: 1px solid #CCCCCC;
 	padding: 0.75em;
 }
@@ -151,6 +133,13 @@ article table td, article table th {
 article table th {
 	text-align: left;
 	background-color: #BDC3C7;
+}
+
+.section-title {
+	font-size: 1.25em;
+	font-weight: 700;
+	padding-left: 0.75em;
+	border-bottom: 1px solid #ccc;
 }
 
 .button {
@@ -172,7 +161,8 @@ article table th {
 	border-left: none;
 	border-right: none;
 }
-.user-info legend, .comment legend {
+
+.legends {
 	color: #999999;
 	text-transform: uppercase;
 	padding: 0 6px;
@@ -197,7 +187,7 @@ article table th {
 	width: 100%;
 }
 
-.comment .btn {
+.submit-btn {
 	width: 100%;
 	border: 0;
 	background-color: #C0392B;
@@ -217,9 +207,9 @@ article table th {
 	color: #999999;
 	display: block;
 }
+
 .comment-info {
 	padding-top: 10px;
-
 }
 
 .comment-info:after{
@@ -233,7 +223,6 @@ article table th {
 }
 
 .container2 {
-
 	margin-left: 50px;
 	padding-left: 10px;
 	border-left: 1px solid #cccccc;
