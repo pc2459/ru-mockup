@@ -166,7 +166,6 @@ article table th {
 	color: #999999;
 	text-transform: uppercase;
 	padding: 0 6px;
-
 }
 
 .user-info label {
@@ -187,14 +186,19 @@ article table th {
 	width: 100%;
 }
 
+.form-btn {
+	padding: 10px 0;
+	margin-bottom: 20px;
+
+}
+
 .submit-btn {
 	width: 100%;
 	border: 0;
 	background-color: #C0392B;
 	color: #fff;
 
-	padding: 10px 0;
-	margin-bottom: 20px;
+
 }
 
 .left-float{
