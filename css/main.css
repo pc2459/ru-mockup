@@ -83,7 +83,7 @@ header nav a {
 
 /* SIDE NAVIGATION */
 
-aside {
+.side-nav {
 	width: 200px;
 	height: 220px;
 
@@ -95,17 +95,17 @@ aside {
 	border-bottom: 3px solid #2C3E50;
 }
 
-aside ul {
+.side-nav ul {
 	list-style-type: none;
 	margin: 8px 0 0 10px;
 	padding: 0;
 }
 
-aside ul li {
+.side-nav ul li {
 	padding: 2px 0;
 }
 
-aside ul a {
+.side-nav ul a {
 
 	color: #666666;
 }
